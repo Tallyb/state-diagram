@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`my-component should render empty state if initial does not exist 1`] = `
+<my-component>
+  <mock:shadow-root>
+    <div class="container">
+      <div>
+        State not yet known
+      </div>
+    </div>
+  </mock:shadow-root>
+</my-component>
+`;
+
+exports[`my-component should render initial state 1`] = `
+<my-component>
+  <mock:shadow-root>
+    <div class="container">
+      <div class="state">
+        <p>
+          a
+        </p>
+        <ul class="transitions">
+          <li>
+            toB
+          </li>
+          <li>
+            toC
+          </li>
+        </ul>
+      </div>
+    </div>
+  </mock:shadow-root>
+</my-component>
+`;
